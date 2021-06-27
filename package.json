@@ -1,13 +1,15 @@
 {
-  "name": "mongodb-memory-server-issue-x",
+  "name": "mongodb-memory-server-issue-489",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "test": "pnpm -r test"
+    "test": "npm run test --workspaces"
   },
   "keywords": [],
   "author": "Sahin Deniz",
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "packages/my-app"
+  ]
 }
