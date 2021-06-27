@@ -1,0 +1,13 @@
+{
+  "name": "mongodb-memory-server-issue-x",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "pnpm -r test"
+  },
+  "keywords": [],
+  "author": "Sahin Deniz",
+  "license": "ISC"
+}
